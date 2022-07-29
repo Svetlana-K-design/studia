@@ -1,0 +1,113 @@
+
+.slider__list, .portfolio__slider {
+  .list-reset();
+  position: relative;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.slider__item, .portfolio__slide  {
+  padding: 0;
+  margin-right: 15px;
+  margin-left: 15px;
+  text-align: center;
+}
+
+.slider__photo {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.slider-nav {
+  margin-right: -5px;
+  margin-left: -5px;
+}
+
+
+/**Slick-slider**/
+
+.slick-slider {
+	min-width: 0;
+}
+/* Ограничивающая оболочка */
+.slick-list {
+	overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track {
+	display: flex;
+	align-items: stretch;
+}
+
+
+/* Arrows */
+.slider__list .slick-arrow {
+	position: absolute;
+	z-index: 10;
+	font-size: 0;
+	width: 32px;
+	height: 32px;
+  background: url('../img/icons/arrow.svg') center center / 100% no-repeat;
+  border: none;
+
+  @media (min-width: @desktop-width) {
+    width: 62px;
+    height: 62px;
+  }
+}
+
+.slider__list .slick-arrow.slick-next{
+  transform: rotate(-180deg);
+}
+
+/* Arrows for reviews*/
+.reviews__slider .slick-arrow.slick-prev  {
+  width: 62px;
+  height: 62px;
+	left: 90px;
+  bottom: -90px;
+
+  @media (min-width: @desktop-width) {
+    left: -60px;
+    top: 50%;
+    margin-top: -50px;
+  }
+}
+
+.reviews__slider .slick-arrow.slick-next {
+  width: 62px;
+  height: 62px;
+  right: 90px;
+  bottom: -90px;
+
+  @media (min-width: @desktop-width) {
+    right: -60px;
+    top: 50%;
+    margin-top: -50px;
+  }
+}
+
+/* Arrows for sale*/
+.sale__slider .slick-arrow.slick-prev  {
+  left: -20px;
+  top: 50%;
+
+  @media (min-width: @desktop-width) {
+    left: 0;
+    top: 50%;
+    margin-top: -62px;
+  }
+}
+
+.sale__slider .slick-arrow.slick-next {
+  right: -10px;
+  top: 50%;
+
+  @media (min-width: @desktop-width) {
+    right: 0;
+    top: 50%;
+    margin-top: -62px;
+  }
+}
+
+

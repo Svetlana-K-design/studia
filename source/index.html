@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ремонт квартир в Москве под ключ</title>
+  <meta name="description"
+    content="Сделаем ремонт квартиры без суеты, задержек и переплат! Сделаем ремонт под ключ качественно!">
+  <meta name=«keywords» content=«ремонт под ключ, ремонт без переплат, ремонт без задержек»>
+  <link href="css/style.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="js/script.js">
+</head>
+
+<body class="page-body">
+  <header class="header header--white">
+    <div class="header__wrapper">
+      <div class="header__menu" id="top">
+        <a class="header__logo" href="#top">
+          <img class="header__logo-img" src="img/icons/header-logo.svg" width="162" height="52" alt="Логотип компании Студия ремонтов" title=" Логотип компании Студия ремонтов">
+        </a>
+        <button class="header__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+        <nav class="header__navigation navigation">
+          <ul class="navigation__list navigation__list--closed">
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">Калькулятор</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">Цены</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">Фото и цены готовых работ</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#master">Отзывы</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="calculator">
+      <div class="calculator__wrapper">
+        <h1 class="calculator__title">Ремонт квартир в Москве под ключ</h1>
+        <ul class="calculator__list">
+          <li class="calculator__item">Материалы от поставщика</li>
+          <li class="calculator__item">Гарантия от 3 лет на все работы</li>
+          <li class="calculator__item">Рассрочка - 0%</li>
+          <li class="calculator__item">Оплата по факту приема работ</li>
+        </ul>
+        <p class="calculator__desc">Успейте сделать ремонт квартиры до роста цен!</p>
+    
+        <div class="calculator__container container" data-step="1" id="calculator">
+          <h2 class="calculator__title calculator__title--h2">Калькулятор расчета стоимости</h2>
+          <div class="calculator__content form">
+            <form action="/zzzzerpolf23cvfdcva2gh.php" id="calculatorForm" method="post" name="calculatorForm"
+              onsubmit="yaCounter36767300.reachGoal (' main_calculator '); return true;">
+              <div class="calculator__form" id="room">
+                <div class="form__wrapper">
+                  <label class="calculator__label" for="type-room">Где будет делаться ремонт?</label>
+                  <select class="form__control" id="type-room" name="selectTypeRoom">
+                    <option value="1">
+                      Комната
+                    </option>
+                    <option value="2">
+                      Квартира
+                    </option>
+                    <option value="3">
+                      Новострой
+                    </option>
+                  </select>
+                </div>
+                <div class="form__wrapper">
+                  <label class="calculator__label" for="number-room">Количество комнат</label>
+                  <select class="form__control" id="number-room" name="selectTypeRoom">
+                    <option value="студия">
+                      Студия
+                    </option>
+                    <option value="1">
+                      1
+                    </option>
+                    <option value="2">
+                      2
+                    </option>
+                    <option value="3">
+                      3
+                    </option>
+                    <option value="4">
+                      4
+                    </option>
+                    <option value="5">
+                      5
+                    </option>
+                  </select>
+                </div>
+                <div class="form__wrapper">
+                  <label class="calculator__label" for="type-remont-room">Выберите тип ремонта</label>
+                  <select class="form__control form__control--type" id="type-remont-room" onchange="openFormRemont(event)" name="selectTypeRemontRoom">
+                    <option class="tablinks" data-type-remont-room="1" selected value="1">
+                      Косметический
+                    </option>
+                    <option class="tablinks" data-type-remont-room="2" value="2" >
+                      Капитальный
+                    </option>
+                    <option class="tablinks" data-type-remont-room="3" value="3" >
+                      Евроремонт
+                    </option>
+                  </select>
+                </div>
+                <div class="form__remont-text">
+                <p class="form__remont-description tabcontent" id="type-remont-room-1">
+                  <span class="bold">Косметический ремонт</span> - это отделка, предполагающая выполнение демонтажных и
+                  чистовых работ помещения (без выравнивания стен).
+                </p>
+                <p class="form__remont-description tabcontent" id="type-remont-room-2">
+                  <span class="bold">Капитальный ремонт</span> подразумевает выполнение базовой черновой отделки (визуальное
+                  выравнивание стен) и
+                  косметического ремонта.
+                </p>
+                <p class="form__remont-description tabcontent" id="type-remont-room-3">
+                  <span class="bold">Евроремонт</span> -
+                  комплексная отделка (демонтажные работы проводятся до основания, выравнивание стен под 90°, полная
+                  замена электрики, разводка коммуникаций и т.д.).
+                </p>
+              </div>
+                <div class="form__wrapper form__wrapper--input">
+                  <label class="calculator__label" for="enter-value-room">Введите метраж</label>
+                  <input class="form__control form__control--input" id="enter-value-room" name="sumMeterRoom" placeholder="33"
+                    type="number"><span>м<sup>2</sup></span>
+                </div>
+                <p class="form__remont-info">Примерные сроки ремонта:<span>7 дней</span></p>
+                <button class="info__button info__button--form form-button" type="button">Узнать стоимость ремонта</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="info">
+      <div class="info__wrapper">
+        <div class="info__content">
+          <h2 class="title-h2">Скидка 20% на всё!</h2>
+          <p class="info__text">На нашем складе хранится большой объём чистовых материалов, которые мы закупили по старым ценам. Мы даём скидку при заказе ремонта с нашими материалами!</p>
+          <button class="info__button" type="button">Отправить заявку</button>
+        </div>
+      </div>
+    </section>
+    <section class="price">
+      <div class="price__wrapper">
+        <h2 class="title-h2 title-h2--price">Цены на все виды ремонта</h2>
+        <ul class=" price__list">
+          <li class="price__item">
+            <h3 class="price__subtitle">Черновой ремонт</h3>
+            <p class="price__text">Это подготовка стен, пола и потолка к чистовой отделке. Все поверхности выравнивают,
+              а если нужно — меняют электропроводку и инженерные коммуникации, системы отопления и водоснабжения.</p>
+            <p class="price__bold">от 2 710 руб./м2</p>
+          </li>
+          <li class="price__item">
+            <h3 class="price__subtitle">Чистовой ремонт</h3>
+            <p class="price__text">Выполняется, когда требуется обновить внешний вид помещения,
+              не&nbsp;нарушая&nbsp;его&nbsp;конструкции.
+              Это быстрый и дешевый способ вернуть интерьеру&nbsp;квартиры&nbsp;его прежнюю привлекательность.</p>
+            <p class="price__bold">от 2 890 руб./м2</p>
+          </li>
+          <li class="price__item">
+            <h3 class="price__subtitle">Капитальный ремонт</h3>
+            <p class="price__text">Полное обновление интерьера вторичного жилья или построение дизайнерского пространства в
+              новостройке с нуля.</p>
+            <p class="price__bold">от 4 310 руб./м2</p>
+          </li>
+          <li class="price__item">
+            <h3 class="price__subtitle">Ремонт под ключ</h3>
+            <p class="price__text">Включает в себя все виды работ от выравнивания стен, до установки бытовой техники и
+              электроники.
+              Вам нужно только оставить заявку, согласовать смету и заселиться в готовую квартиру.</p>
+            <p class="price__bold">от 5 080 руб./м2</p>
+          </li>
+        </ul>
+        <button class="price__button" type="button">Прайс на все виды работ</button>
+      </div>
+    </section>
+    <section class="info">
+      <div class="info__wrapper">
+        <div class="info__content">
+          <h2 class="title-h2">У нас есть примеры работ по ремонтам квартир любой сложности!</h2>
+          <p class="info__text">Мы регулярно снимаем материалы по нашим проектам и делимся <span>ими <a class="blue">на&nbsp;нашем сайте</a> и <a class="red">канале YouTube</a>.</span></p>
+          <button class="info__button info__button--small" type="button">Посмотреть примеры реальных работ</button>
+        </div>
+      </div>
+    </section>
+    <section class="advantage">
+      <div class="advantage__wrapper">
+        <h2 class="title-h2">Преимущества работы с нами:</h2>
+        <ul class="advantage__list">
+          <li class="advantage__item advantage__item--money">
+            <h3 class="advantage__title">Без предоплат</h3>
+            <p class="advantage__desc">Оплата производится по факту принятия выполненных работ.</p>
+          </li>
+          <li class="advantage__item advantage__item--price">
+            <h3 class="advantage__title advantage__title">Материалы по цене поставщика</h3>
+            <p class="advantage__desc">Контроль качества материалов по ГОСТ и СНиП.</p>
+          </li>
+          <li class="advantage__item advantage__item--list">
+            <h3 class="advantage__title">Работаем строго по смете</h3>
+            <p class="advantage__desc">Чек меняется только при желании заказчика что-то добавить.</p>
+          </li>
+          <li class="advantage__item advantage__item--sale">
+            <h3 class="advantage__title">На 25% дешевле, чем в крупных фирмах</h3>
+            <p class="advantage__desc">Качественнее, чем у частных мастеров.</p>
+          </li>
+          <li class="advantage__item advantage__item--zero">
+            <h3 class="advantage__title">Рассрочка - 0%</h3>
+            <p class="advantage__desc">Предоставляем рассрочку до 12 месяцев.</p>
+          </li>
+          <li class="advantage__item advantage__item--heart">
+            <h3 class="advantage__title advantage__title--small">Не являемся посредниками</h3>
+            <p class="advantage__desc">Все рабочие являются сотрудниками нашей компании. Мы не нанимаем сторонних бригад.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    
+    <section class="portfolio" id="portfolio">
+      <div class="portfolio__wrapper">
+        <h2 class="title-h2 title-h2--portfolio">Фото и цены готовых работ</h2>
+        <div class="portfolio__content">
+          <div class="portfolio__tabs">
+            <button class="portfolio__tab portfolio__tab--prev" type="button">Предыдущая</button>
+            <button class="portfolio__tab portfolio__tab--next" type="button">Следующая</button>
+          </div>
+          <div class="portfolio__slider">
+            <div class="portfolio__slide">
+              <p class="portfolio__slide-number"><span>1</span> из 5 проектов</p>
+              <h3>Капитальный ремонт студии 35 кв.м. в новостройке</h3>
+              <div class="portfolio__flex">
+                <div class="portfolio__photo-book">
+                  <div class="slider-for">
+                    <div class="portfolio__item">
+                      <picture>
+                        <source type="image/webp" srcset="img/portfolio/room-1.webp 1x, img/portfolio/room-1@2x.webp 2x" />
+                        <img class="portfolio__photo" src="img/portfolio/room-1.jpeg"
+                          srcset="img/portfolio/room-1@2x.jpeg 2x" alt="Гостинная, совмещённая с кухней"
+                          title="Фото отремонтированной комнаты" />
+                      </picture>
+                    </div>
+                    <div class="portfolio__item">
+                      <picture>
+                        <source type="image/webp" srcset="img/portfolio/room-2.webp 1x, img/portfolio/room-2@2x.webp 2x" />
+                        <img class="portfolio__photo" src="img/portfolio/room-2.jpeg"
+                          srcset="img/portfolio/room-2@2x.jpeg 2x" alt="Кухонная зона"
+                          title="Фото отремонтированной комнаты" />
+                      </picture>
+                    </div>
+                    <div class="portfolio__item">
+                      <picture>
+                        <source type="image/webp" srcset="img/portfolio/room-3.webp 1x, img/portfolio/room-3@2x.webp 2x" />
+                        <img class="portfolio__photo" src="img/portfolio/room-3.jpeg"
+                          srcset="img/portfolio/room-3@2x.jpeg 2x" alt="Вид из кухни в гостинную"
+                          title="Фото отремонтированной комнаты" />
+                      </picture>
+                    </div>
+                    <div class="portfolio__item">
+                      <picture>
+                        <source type="image/webp" srcset="img/portfolio/room-4.webp 1x, img/portfolio/room-4@2x.webp 2x" />
+                        <img class="portfolio__photo" src="img/portfolio/room-4.jpeg"
+                          srcset="img/portfolio/room-4@2x.jpeg 2x" alt="Туалет: ванная и стиральная машина"
+                          title="Фото отремонтированной комнаты" />
+                      </picture>
+                    </div>
+                    <div class="portfolio__item">
+                      <picture>
+                        <source type="image/webp" srcset="img/portfolio/room-5.webp 1x, img/portfolio/room-5@2x.webp 2x" />
+                        <img class="portfolio__photo" src="img/portfolio/room-5.jpeg"
+                          srcset="img/portfolio/room-5@2x.jpeg 2x" alt="Туалет: раковниа, унитаз и навесные шкафы"
+                          title="Фото отремонтированной комнаты" />
+                      </picture>
+                    </div>
+                  </div>
+                  <div class="slider-nav">
+                    <div class="slider__photo">
+                      <picture>
+                        <source type="image/webp" srcset="img/portfolio/room-1.webp 1x, img/portfolio/room-1@2x.webp 2x" />
+                        <img class="portfolio__photo-prev" src="img/portfolio/room-1.jpeg"
+                          srcset="img/portfolio/room-1@2x.jpeg 2x" alt="Гостинная, совмещённая с кухней"
+                          title="Фото отремонтированной комнаты" />
+                      </picture>
+                    </div>
+                    <div class="slider__photo">
+                      <picture>
+                        <source type="image/webp" srcset="img/portfolio/room-2.webp 1x, img/portfolio/room-2@2x.webp 2x" />
+                        <img class="portfolio__photo-prev" src="img/portfolio/room-2.jpeg"
+                          srcset="img/portfolio/room-2@2x.jpeg 2x" alt="Кухонная зона"
+                          title="Фото отремонтированной комнаты" />
+                      </picture>
+                    </div>
+                    <div class="slider__photo">
+                      <picture>
+                        <source type="image/webp" srcset="img/portfolio/room-3.webp 1x, img/portfolio/room-3@2x.webp 2x" />
+                        <img class="portfolio__photo-prev" src="img/portfolio/room-3.jpeg"
+                          srcset="img/portfolio/room-3@2x.jpeg 2x" alt="Вид из кухни в гостинную"
+                          title="Фото отремонтированной комнаты" />
+                      </picture>
+                    </div>
+                    <div class="slider__photo">
+                      <picture>
+                        <source type="image/webp" srcset="img/portfolio/room-4.webp 1x, img/portfolio/room-4@2x.webp 2x" />
+                        <img class="portfolio__photo-prev" src="img/portfolio/room-4.jpeg"
+                          srcset="img/portfolio/room-4@2x.jpeg 2x" alt="Туалет: ванная и стиральная машина"
+                          title="Фото отремонтированной комнаты" />
+                      </picture>
+                    </div>
+                    <div class="slider__photo">
+                      <picture>
+                        <source type="image/webp" srcset="img/portfolio/room-5.webp 1x, img/portfolio/room-5@2x.webp 2x" />
+                        <img class="portfolio__photo-prev" src="img/portfolio/room-5.jpeg"
+                          srcset="img/portfolio/room-5@2x.jpeg 2x" alt="Туалет: раковниа, унитаз и навесные шкафы"
+                          title="Фото отремонтированной комнаты" />
+                      </picture>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio__outlay outlay">
+                  <div class="outlay__detail">
+                    <span class="time">42 дня</span>
+                    <span class="rur">196 181 руб.</span>
+                    <span class="person">Д. Володин</span>
+                  </div>
+                  <table class="outlay__table">
+                    <caption>Список выполненных работ</caption>
+                    <tr>
+                      <td>Стяжка пола до 6 см</td>
+                      <td>8 680 руб.</td>
+                    </tr>
+                    <tr>
+                      <td>Укладка ламината</td>
+                      <td>13 230 руб.</td>
+                    </tr>
+                    <tr>
+                      <td>Монтаж плинтусов</td>
+                      <td>5 005 руб.</td>
+                    </tr>
+                    <tr>
+                      <td>Частичная штукатурка стен</td>
+                      <td>42 768 руб.</td>
+                    </tr>
+                    <tr>
+                      <td>Установка подоконников</td>
+                      <td>2 744 руб.</td>
+                    </tr>
+                    <tr>
+                      <td>Окраска стен в 2 слоя</td>
+                      <td>24 084 руб.</td>
+                    </tr>
+                    <tr>
+                      <td>Облицовка плиткой пола в ванной</td>
+                      <td>23 652 руб.</td>
+                    </tr>
+                    <tr>
+                      <td>Облицовка плиткой стен в ванной</td>
+                      <td>37 843 руб.</td>
+                    </tr>
+                    <tr>
+                      <td>Покрытие стен балкона лаком</td>
+                      <td>6 509 руб.</td>
+                    </tr>
+                    <tr>
+                      <td>Комплексная разводка труб</td>
+                      <td>3 260 руб.</td>
+                    </tr>
+                    <tr>
+                      <td>Установка сантехники</td>
+                      <td>7 065 руб.</td>
+                    </tr>
+                    <tr>
+                      <td>Установка 2-х дверей</td>
+                      <td>9 790 руб.</td>
+                    </tr>
+                    <tr>
+                      <td>Монтаж натяжного потолка</td>
+                      <td>11 550 руб.</td>
+                    </tr>
+                  </table>
+                  <table class="outlay__table outlay__table--bold">
+                    <tr>
+                      <td>Итого</td>
+                      <td>196 181 руб.</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <button class="info__button" type="button">Рассчитать стоиость ремонта</button>
+            </div>
+    
+            <div class="portfolio__slide">
+              <p class="portfolio__slide-number"><span>2</span> из 5 проектов</p>
+              <h3>Капитальный ремонт студии 35 кв.м. в новостройке</h3>
+              <div class="portfolio__flex">
+                <div class="portfolio__photo-book">
+                  <div class="slider-for">
+                    <div class="portfolio__item">
+                      <picture>
+                        <source type="image/webp" srcset="img/portfolio/room-1.webp 1x, img/portfolio/room-1@2x.webp 2x" />
+                        <img class="portfolio__photo" src="img/portfolio/room-1.jpeg"
+                          srcset="img/portfolio/room-1@2x.jpeg 2x" alt="Гостинная, совмещённая с кухней"
+                          title="Фото отремонтированной комнаты" />
+                      </picture>
+                    </div>
+                    <div class="portfolio__item">
+                      <picture>
+                        <source type="image/webp" srcset="img/portfolio/room-2.webp 1x, img/portfolio/room-2@2x.webp 2x" />
+                        <img class="portfolio__photo" src="img/portfolio/room-2.jpeg"
+                          srcset="img/portfolio/room-2@2x.jpeg 2x" alt="Кухонная зона"
+                          title="Фото отремонтированной комнаты" />
+                      </picture>
+                    </div>
+                    <div class="portfolio__item">
+                      <picture>
+                        <source type="image/webp" srcset="img/portfolio/room-3.webp 1x, img/portfolio/room-3@2x.webp 2x" />
+                        <img class="portfolio__photo" src="img/portfolio/room-3.jpeg"
+                          srcset="img/portfolio/room-3@2x.jpeg 2x" alt="Вид из кухни в гостинную"
+                          title="Фото отремонтированной комнаты" />
+                      </picture>
+                    </div>
+                    <div class="portfolio__item">
+                      <picture>
+                        <source type="image/webp" srcset="img/portfolio/room-4.webp 1x, img/portfolio/room-4@2x.webp 2x" />
+                        <img class="portfolio__photo" src="img/portfolio/room-4.jpeg"
+                          srcset="img/portfolio/room-4@2x.jpeg 2x" alt="Туалет: ванная и стиральная машина"
+                          title="Фото отремонтированной комнаты" />
+                      </picture>
+                    </div>
+                    <div class="portfolio__item">
+                      <picture>
+                        <source type="image/webp" srcset="img/portfolio/room-5.webp 1x, img/portfolio/room-5@2x.webp 2x" />
+                        <img class="portfolio__photo" src="img/portfolio/room-5.jpeg"
+                          srcset="img/portfolio/room-5@2x.jpeg 2x" alt="Туалет: раковниа, унитаз и навесные шкафы"
+                          title="Фото отремонтированной комнаты" />
+                      </picture>
+                    </div>
+                  </div>
+                  <div class="slider-nav">
+                    <div class="slider__photo">
+                      <picture>
+                        <source type="image/webp" srcset="img/portfolio/room-1.webp 1x, img/portfolio/room-1@2x.webp 2x" />
+                        <img class="portfolio__photo-prev" src="img/portfolio/room-1.jpeg"
+                          srcset="img/portfolio/room-1@2x.jpeg 2x" alt="Гостинная, совмещённая с кухней"
+                          title="Фото отремонтированной комнаты" />
+                      </picture>
+                    </div>
+                    <div class="slider__photo">
+                      <picture>
+                        <source type="image/webp" srcset="img/portfolio/room-2.webp 1x, img/portfolio/room-2@2x.webp 2x" />
+                        <img class="portfolio__photo-prev" src="img/portfolio/room-2.jpeg"
+                          srcset="img/portfolio/room-2@2x.jpeg 2x" alt="Кухонная зона"
+                          title="Фото отремонтированной комнаты" />
+                      </picture>
+                    </div>
+                    <div class="slider__photo">
+                      <picture>
+                        <source type="image/webp" srcset="img/portfolio/room-3.webp 1x, img/portfolio/room-3@2x.webp 2x" />
+                        <img class="portfolio__photo-prev" src="img/portfolio/room-3.jpeg"
+                          srcset="img/portfolio/room-3@2x.jpeg 2x" alt="Вид из кухни в гостинную"
+                          title="Фото отремонтированной комнаты" />
+                      </picture>
+                    </div>
+                    <div class="slider__photo">
+                      <picture>
+                        <source type="image/webp" srcset="img/portfolio/room-4.webp 1x, img/portfolio/room-4@2x.webp 2x" />
+                        <img class="portfolio__photo-prev" src="img/portfolio/room-4.jpeg"
+                          srcset="img/portfolio/room-4@2x.jpeg 2x" alt="Туалет: ванная и стиральная машина"
+                          title="Фото отремонтированной комнаты" />
+                      </picture>
+                    </div>
+                    <div class="slider__photo">
+                      <picture>
+                        <source type="image/webp" srcset="img/portfolio/room-5.webp 1x, img/portfolio/room-5@2x.webp 2x" />
+                        <img class="portfolio__photo-prev" src="img/portfolio/room-5.jpeg"
+                          srcset="img/portfolio/room-5@2x.jpeg 2x" alt="Туалет: раковниа, унитаз и навесные шкафы"
+                          title="Фото отремонтированной комнаты" />
+                      </picture>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio__outlay outlay">
+                  <div class="outlay__detail">
+                    <span class="time">42 дня</span>
+                    <span class="rur">196 181 руб.</span>
+                    <span class="person">Д. Володин</span>
+                  </div>
+                  <table class="outlay__table">
+                    <caption>Список выполненных работ</caption>
+                    <tr>
+                      <td>Стяжка пола до 6 см</td>
+                      <td>8 680 руб.</td>
+                    </tr>
+                    <tr>
+                      <td>Укладка ламината</td>
+                      <td>13 230 руб.</td>
+                    </tr>
+                    <tr>
+                      <td>Монтаж плинтусов</td>
+                      <td>5 005 руб.</td>
+                    </tr>
+                    <tr>
+                      <td>Частичная штукатурка стен</td>
+                      <td>42 768 руб.</td>
+                    </tr>
+                    <tr>
+                      <td>Установка подоконников</td>
+                      <td>2 744 руб.</td>
+                    </tr>
+                    <tr>
+                      <td>Окраска стен в 2 слоя</td>
+                      <td>24 084 руб.</td>
+                    </tr>
+                    <tr>
+                      <td>Облицовка плиткой пола в ванной</td>
+                      <td>23 652 руб.</td>
+                    </tr>
+                    <tr>
+                      <td>Облицовка плиткой стен в ванной</td>
+                      <td>37 843 руб.</td>
+                    </tr>
+                    <tr>
+                      <td>Покрытие стен балкона лаком</td>
+                      <td>6 509 руб.</td>
+                    </tr>
+                    <tr>
+                      <td>Комплексная разводка труб</td>
+                      <td>3 260 руб.</td>
+                    </tr>
+                    <tr>
+                      <td>Установка сантехники</td>
+                      <td>7 065 руб.</td>
+                    </tr>
+                    <tr>
+                      <td>Установка 2-х дверей</td>
+                      <td>9 790 руб.</td>
+                    </tr>
+                    <tr>
+                      <td>Монтаж натяжного потолка</td>
+                      <td>11 550 руб.</td>
+                    </tr>
+                  </table>
+                  <table class="outlay__table outlay__table--bold">
+                    <tr>
+                      <td>Итого</td>
+                      <td>90000000.</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <button class="info__button" type="button">Рассчитать стоиость ремонта</button>
+            </div>
+    
+    
+    
+            <div class="portfolio__slide">
+              <p class="portfolio__slide-number"><span>3</span> из 5 проектов</p>
+              <h3>Капитальный ремонт</h3>
+              <div class="portfolio__flex">
+                <div class="portfolio__photo-book">
+                  <div class="slider-for">
+                    <div class="portfolio__item">
+                      <picture>
+                        <source type="image/webp" srcset="img/portfolio/room-1.webp 1x, img/portfolio/room-1@2x.webp 2x" />
+                        <img class="portfolio__photo" src="img/portfolio/room-1.jpeg"
+                          srcset="img/portfolio/room-1@2x.jpeg 2x" alt="Гостинная, совмещённая с кухней"
+                          title="Фото отремонтированной комнаты" />
+                      </picture>
+                    </div>
+                    <div class="portfolio__item">
+                      <picture>
+                        <source type="image/webp" srcset="img/portfolio/room-2.webp 1x, img/portfolio/room-2@2x.webp 2x" />
+                        <img class="portfolio__photo" src="img/portfolio/room-2.jpeg"
+                          srcset="img/portfolio/room-2@2x.jpeg 2x" alt="Кухонная зона"
+                          title="Фото отремонтированной комнаты" />
+                      </picture>
+                    </div>
+                    <div class="portfolio__item">
+                      <picture>
+                        <source type="image/webp" srcset="img/portfolio/room-3.webp 1x, img/portfolio/room-3@2x.webp 2x" />
+                        <img class="portfolio__photo" src="img/portfolio/room-3.jpeg"
+                          srcset="img/portfolio/room-3@2x.jpeg 2x" alt="Вид из кухни в гостинную"
+                          title="Фото отремонтированной комнаты" />
+                      </picture>
+                    </div>
+                    <div class="portfolio__item">
+                      <picture>
+                        <source type="image/webp" srcset="img/portfolio/room-4.webp 1x, img/portfolio/room-4@2x.webp 2x" />
+                        <img class="portfolio__photo" src="img/portfolio/room-4.jpeg"
+                          srcset="img/portfolio/room-4@2x.jpeg 2x" alt="Туалет: ванная и стиральная машина"
+                          title="Фото отремонтированной комнаты" />
+                      </picture>
+                    </div>
+                    <div class="portfolio__item">
+                      <picture>
+                        <source type="image/webp" srcset="img/portfolio/room-5.webp 1x, img/portfolio/room-5@2x.webp 2x" />
+                        <img class="portfolio__photo" src="img/portfolio/room-5.jpeg"
+                          srcset="img/portfolio/room-5@2x.jpeg 2x" alt="Туалет: раковниа, унитаз и навесные шкафы"
+                          title="Фото отремонтированной комнаты" />
+                      </picture>
+                    </div>
+                  </div>
+                  <div class="slider-nav">
+                    <div class="slider__photo">
+                      <picture>
+                        <source type="image/webp" srcset="img/portfolio/room-1.webp 1x, img/portfolio/room-1@2x.webp 2x" />
+                        <img class="portfolio__photo-prev" src="img/portfolio/room-1.jpeg"
+                          srcset="img/portfolio/room-1@2x.jpeg 2x" alt="Гостинная, совмещённая с кухней"
+                          title="Фото отремонтированной комнаты" />
+                      </picture>
+                    </div>
+                    <div class="slider__photo">
+                      <picture>
+                        <source type="image/webp" srcset="img/portfolio/room-2.webp 1x, img/portfolio/room-2@2x.webp 2x" />
+                        <img class="portfolio__photo-prev" src="img/portfolio/room-2.jpeg"
+                          srcset="img/portfolio/room-2@2x.jpeg 2x" alt="Кухонная зона"
+                          title="Фото отремонтированной комнаты" />
+                      </picture>
+                    </div>
+                    <div class="slider__photo">
+                      <picture>
+                        <source type="image/webp" srcset="img/portfolio/room-3.webp 1x, img/portfolio/room-3@2x.webp 2x" />
+                        <img class="portfolio__photo-prev" src="img/portfolio/room-3.jpeg"
+                          srcset="img/portfolio/room-3@2x.jpeg 2x" alt="Вид из кухни в гостинную"
+                          title="Фото отремонтированной комнаты" />
+                      </picture>
+                    </div>
+                    <div class="slider__photo">
+                      <picture>
+                        <source type="image/webp" srcset="img/portfolio/room-4.webp 1x, img/portfolio/room-4@2x.webp 2x" />
+                        <img class="portfolio__photo-prev" src="img/portfolio/room-4.jpeg"
+                          srcset="img/portfolio/room-4@2x.jpeg 2x" alt="Туалет: ванная и стиральная машина"
+                          title="Фото отремонтированной комнаты" />
+                      </picture>
+                    </div>
+                    <div class="slider__photo">
+                      <picture>
+                        <source type="image/webp" srcset="img/portfolio/room-5.webp 1x, img/portfolio/room-5@2x.webp 2x" />
+                        <img class="portfolio__photo-prev" src="img/portfolio/room-5.jpeg"
+                          srcset="img/portfolio/room-5@2x.jpeg 2x" alt="Туалет: раковниа, унитаз и навесные шкафы"
+                          title="Фото отремонтированной комнаты" />
+                      </picture>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio__outlay outlay">
+                  <div class="outlay__detail">
+                    <span class="time">42 дня</span>
+                    <span class="rur">196 181 руб.</span>
+                    <span class="person">Д. Володин</span>
+                  </div>
+                  <table class="outlay__table">
+                    <caption>Список выполненных работ</caption>
+                    <tr>
+                      <td>Стяжка пола до 6 см</td>
+                      <td>8 680 руб.</td>
+                    </tr>
+                    <tr>
+                      <td>Укладка ламината</td>
+                      <td>13 230 руб.</td>
+                    </tr>
+                    <tr>
+                      <td>Монтаж плинтусов</td>
+                      <td>5 005 руб.</td>
+                    </tr>
+                    <tr>
+                      <td>Частичная штукатурка стен</td>
+                      <td>42 768 руб.</td>
+                    </tr>
+                    <tr>
+                      <td>Установка подоконников</td>
+                      <td>2 744 руб.</td>
+                    </tr>
+                    <tr>
+                      <td>Окраска стен в 2 слоя</td>
+                      <td>24 084 руб.</td>
+                    </tr>
+                    <tr>
+                      <td>Облицовка плиткой пола в ванной</td>
+                      <td>23 652 руб.</td>
+                    </tr>
+                    <tr>
+                      <td>Облицовка плиткой стен в ванной</td>
+                      <td>37 843 руб.</td>
+                    </tr>
+                    <tr>
+                      <td>Покрытие стен балкона лаком</td>
+                      <td>6 509 руб.</td>
+                    </tr>
+                    <tr>
+                      <td>Комплексная разводка труб</td>
+                      <td>3 260 руб.</td>
+                    </tr>
+                    <tr>
+                      <td>Установка сантехники</td>
+                      <td>7 065 руб.</td>
+                    </tr>
+                    <tr>
+                      <td>Установка 2-х дверей</td>
+                      <td>9 790 руб.</td>
+                    </tr>
+                    <tr>
+                      <td>Монтаж натяжного потолка</td>
+                      <td>11 550 руб.</td>
+                    </tr>
+                  </table>
+                  <table class="outlay__table outlay__table--bold">
+                    <tr>
+                      <td>Итого</td>
+                      <td>196 181 руб.</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <button class="info__button" type="button">Рассчитать стоиость ремонта</button>
+            </div>
+    
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="info">
+      <div class="info__wrapper info__wrapper--reviews">
+        <div class="info__content">
+          <p class="info__subtitle">За 6 лет работы мы получили <span>более 3 500 отзывов</span> на официальных платформах.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="reviews">
+      <div class="reviews__wrapper">
+        <h2 class="title-h2 title-h2--reviewss">Отзывы клиентов о компании</h2>
+        <div class="reviews__slider slider__list">
+          <div class="reviews__slide slider__item">
+            <div class="reviews__content">
+              <div class="reviews__author">
+                <div class="reviews__person">
+                  <picture>
+                    <source srcset="img/person/fedunov-desk.webp, img/person/fedunov-desk@2x.webp 2x" media="(min-width: 768px)">
+                    <source srcset="img/person/fedunov-desk.jpeg, img/person/fedunov-desk@2x.jpeg 2x" media="(min-width: 768px)">
+                    <source type="image/webp" srcset="img/person/fedunov.webp 1x, img/person/fedunov@2x.webp 2x" />
+                    <img class="reviews__photo" src="img/person/fedunov.jpeg" srcset="img/person/fedunov@2x.jpeg 2x"
+                      alt="Фотография Дениса Федюнова" title="Фото автора отзыва" />
+                  </picture>
+                </div>
+                <div class="reviews__name">
+                  <p class="reviews__info reviews__info">Денис Федюнов</p>
+                  <p class="reviews__info reviews__info--grey">Договор 1-62304</p>
+                </div>
+              </div>
+              <div class="reviews__say">
+                <div class="reviews__plus">
+                  <p class="reviews__grade">Плюсы:</p>
+                  <ul class="reviews__list">
+                    <li class="reviews__item">Сделали быстро, все этапы были согласованы.</li>
+                    <li class="reviews__item">Прораб был всегда на связи, рекомендовал как лучше сделать ту или иную работу.
+                    </li>
+                    <li class="reviews__item">Была оказана помощь в доставки части стройматериалов.</li>
+                  </ul>
+                </div>
+                <div>
+                  <p class="reviews__grade">Минусы</p>
+                  <ul class="reviews__list">
+                    <li class="reviews__item">Осталось много строительных материалов, какие смогли сдали, много просто
+                      распакованно.</li>
+                    <li class="reviews__item">Появлялись много дополнительных работ, не озвученные в первоначальной смете,
+                      ремонт вышел на 120 т.р дороже.</li>
+                    <li class="reviews__item">Были проблемы с работами по натяжному потолку, а именно назначение мастера на
+                      объект.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="reviews__slide slider__item">
+            <div class="reviews__content">
+              <div class="reviews__author">
+                <div class="reviews__person">
+                  <picture>
+                    <source srcset="img/person/fedunov-desk.webp, img/person/fedunov-desk@2x.webp 2x" media="(min-width: 768px)">
+                    <source srcset="img/person/fedunov-desk.jpeg, img/person/fedunov-desk@2x.jpeg 2x" media="(min-width: 768px)">
+                    <source type="image/webp" srcset="img/person/fedunov.webp 1x, img/person/fedunov@2x.webp 2x" />
+                    <img class="reviews__photo" src="img/person/fedunov.jpeg" srcset="img/person/fedunov@2x.jpeg 2x"
+                      alt="Фотография Дениса Федюнова" title="Фото автора отзыва" />
+                  </picture>
+                </div>
+                <div class="reviews__name">
+                  <p class="reviews__info reviews__info">Денис Федюнов</p>
+                  <p class="reviews__info reviews__info--grey">Договор 1-62304</p>
+                </div>
+              </div>
+              <div class="reviews__say">
+                <div class="reviews__plus">
+                  <p class="reviews__grade">Плюсы:</p>
+                  <ul class="reviews__list">
+                    <li class="reviews__item">Сделали быстро, все этапы были согласованы.</li>
+                    <li class="reviews__item">Прораб был всегда на связи, рекомендовал как лучше сделать ту или иную работу.
+                    </li>
+                    <li class="reviews__item">Была оказана помощь в доставки части стройматериалов.</li>
+                  </ul>
+                </div>
+                <div>
+                  <p class="reviews__grade">Минусы</p>
+                  <ul class="reviews__list">
+                    <li class="reviews__item">Осталось много строительных материалов, какие смогли сдали, много просто
+                      распакованно.</li>
+                    <li class="reviews__item">Появлялись много дополнительных работ, не озвученные в первоначальной смете,
+                      ремонт вышел на 120 т.р дороже.</li>
+                    <li class="reviews__item">Были проблемы с работами по натяжному потолку, а именно назначение мастера на
+                      объект.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="reviews__slide slider__item">
+            <div class="reviews__content">
+              <div class="reviews__author">
+                <div class="reviews__person">
+                  <picture>
+                    <source srcset="img/person/fedunov-desk.webp, img/person/fedunov-desk@2x.webp 2x" media="(min-width: 768px)">
+                    <source srcset="img/person/fedunov-desk.jpeg, img/person/fedunov-desk@2x.jpeg 2x" media="(min-width: 768px)">
+                    <source type="image/webp" srcset="img/person/fedunov.webp 1x, img/person/fedunov@2x.webp 2x" />
+                    <img class="reviews__photo" src="img/person/fedunov.jpeg" srcset="img/person/fedunov@2x.jpeg 2x"
+                      alt="Фотография Дениса Федюнова" title="Фото автора отзыва" />
+                  </picture>
+                </div>
+                <div class="reviews__name">
+                  <p class="reviews__info reviews__info">Денис Федюнов</p>
+                  <p class="reviews__info reviews__info--grey">Договор 1-62304</p>
+                </div>
+              </div>
+              <div class="reviews__say">
+                <div class="reviews__plus">
+                  <p class="reviews__grade">Плюсы:</p>
+                  <ul class="reviews__list">
+                    <li class="reviews__item">Сделали быстро, все этапы были согласованы.</li>
+                    <li class="reviews__item">Прораб был всегда на связи, рекомендовал как лучше сделать ту или иную работу.
+                    </li>
+                    <li class="reviews__item">Была оказана помощь в доставки части стройматериалов.</li>
+                  </ul>
+                </div>
+                <div>
+                  <p class="reviews__grade">Минусы</p>
+                  <ul class="reviews__list">
+                    <li class="reviews__item">Осталось много строительных материалов, какие смогли сдали, много просто
+                      распакованно.</li>
+                    <li class="reviews__item">Появлялись много дополнительных работ, не озвученные в первоначальной смете,
+                      ремонт вышел на 120 т.р дороже.</li>
+                    <li class="reviews__item">Были проблемы с работами по натяжному потолку, а именно назначение мастера на
+                      объект.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="reviews__social">
+          <h3 class="reviews__caption">Смотрите все отзывы на площадках</h3>
+          <ul class="reviews__social-list">
+            <li class="reviews__social-item">
+              <a href="https://yandex.ru/maps/org/studiya_remontov/1704435823/reviews/" class="reviews__social-link reviews__social-link--yandex" aria-label="Отзывы на Яндексе">Яндекс</a>
+            </li>
+            <li class="reviews__social-item">
+              <a href="https://remont-rate.ru/company/studia-remontov" class="reviews__social-link reviews__social-link--rr" aria-label="Отзывы на Remont-Rate">Remont-rate</a>
+            </li>
+            <li class="reviews__social-item">
+              <a href="https://www.yell.ru/moscow/com/studia-remontov_11851561/reviews/" class="reviews__social-link reviews__social-link--yell" aria-label="Отзывы на Yell">Yell</a>
+            </li>
+            <li class="reviews__social-item">
+              <a href="https://zoon.ru/msk/building/kompaniya_studiya_remontov_v_presnenskom_rajone/reviews/" class="reviews__social-link reviews__social-link--zoon" aria-label="Отзывы на Zoon.ru">Zoon</a>
+            </li>
+            <li class="reviews__social-item">
+              <a href="https://www.spr.ru/moskva/otdelochnie-raboti-remont-kvartir-i-ofisov/reviews/studiya-remontov.html" class="reviews__social-link reviews__social-link--spr" aria-label="Отзывы на spr.ru">SPR</a>
+            </li>
+            <li class="reviews__social-item">
+              <a href="https://rating-remont.moscow/otzyvy-studiya-remontov/" class="reviews__social-link reviews__social-link--rrm" aria-label="Отзывы на rating-remont.moscow">Rating Remont</a>
+            </li>
+            <li class="reviews__social-item">
+              <a href="https://otzovik.com/reviews/kompaniya_studiya_remontov_russia_moscow/" class="reviews__social-link reviews__social-link--otzovik" aria-label="Отзывы на Отзовик">Отзовик</a>
+            </li>			
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="info">
+      <div class="info__wrapper info__wrapper--review">
+        <div class="info__content">
+          <h2 class="title-h2">Все отзывы на сайте - реальны.</h2>
+          <p class="info__text">Переходите по ссылкам на любой из сервисов, чтобы увидеть больше.<br>Будем рады взяться и за Ваш проект!</p>
+          <button class="info__button" type="button">Заказать замер</button>
+        </div>
+      </div>
+    </section>
+    <section class="sale">
+      <div class="sale__wrapper">
+        <div class="sale__content">
+          <h2 class="title-h2">У нас действуют акции</h2>
+          <div class="sale__slider slider__list">
+            <div class="sale__slide slider__item">
+              <h3 class="sale__title">Расскажи о нас</h3>
+              <p class="sale__text">Оставьте правдивый отзыв в интернете о работе нашей компании с фотографиями Вашего
+                ремонта и <span class="blue">получите скидку 5%</span></p>
+              <p class="sale__text">О своем желании поучаствовать в акции «Расскажи о нас» необходимо <span
+                  class="line">сообщить замерщику до заключения договора.</span></p>
+            </div>
+    
+            <div class="sale__slide slider__item">
+              <h3 class="sale__title">Расскажи о нас</h3>
+              <p class="sale__text">Оставьте правдивый отзыв в интернете о работе нашей компании с фотографиями Вашего
+                ремонта и <span class="blue">получите скидку 5%</span></p>
+              <p class="sale__text">О своем желании поучаствовать в акции «Расскажи о нас» необходимо <span
+                  class="line">сообщить замерщику до заключения договора.</span></p>
+            </div>
+    
+            <div class="sale__slide slider__item">
+              <h3 class="sale__title">Расскажи о нас</h3>
+              <p class="sale__text">Оставьте правдивый отзыв в интернете о работе нашей компании с фотографиями Вашего
+                ремонта и <span class="blue">получите скидку 5%</span></p>
+              <p class="sale__text">О своем желании поучаствовать в акции «Расскажи о нас» необходимо <span
+                  class="line">сообщить замерщику до заключения договора.</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__wrapper">
+      <h2 class="title-h2 title-h2--footer">Адреса и контактная информация</h2>
+      <div class="footer__map" id="map-yandex">
+        <script type="text/javascript" charset="utf-8" async
+          src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac20d5a258dfedadc38bdf04f6966239d9d83483847458043a4cf49d4a1afa756&amp;width=100%&amp;height=554&amp;lang=ru_RU&amp;scroll=true"></script>
+      </div>
+      <div class="footer__container">
+        <div class="contacts">
+          <div class="contacts__flex">
+            <div class="contacts__info contacts__info--phone">
+              <a href="tel:+74951280697" class="contacts__phone roistat-phone"
+                aria-label="Телефон компании Студия Ремонтов" itemprop="telephone" content="+74951281356">+7 (495)
+                414-22-30</a>
+              <meta itemprop="priceRange" content="204-1000000">
+              <p class="contacts__working-hours" itemprop="openingHours" content="Mo-Su 08:00-22:00">без выходных
+                08:00-22:00
+              </p>
+            </div>
+            <a href="#zvonok" class="contacts__button btn popup">Позвоните мне</a>
+          </div>
+          <div class="contacts__inline">
+            <address class="contacts__info contacts__info--address" itemprop="address">г. Москва, ММДЦ
+              «Москва-Сити» Пресненская набережная 12, Башня Федерация Восток, этаж 42, офис 4203</address>
+            <div itemprop="geo" itemscope itemtype="http://schema.org/GeoCoordinates">
+              <meta itemprop="latitude" content="55.74948" />
+              <meta itemprop="longitude" content="37.53694" />
+            </div>
+            <div class="contacts__social social">
+              <h3 class="social__title">Мы в соц. сетях:</h3>
+              <ul class="social__list">
+                <li class="social__item">
+                  <a class="social__link social__link--vk" href="https://vk.com/studia.remontov/" target="_blank"
+                    rel="noopener" aria-label="Cтраница компании Студия Ремонтов в Вконтакте"></a>
+                </li>
+                <li class="social__item">
+                  <a class="social__link social__link--insta" href="https://www.instagram.com/studia.remontov/"
+                    target="_blank" rel="noopener" aria-label="Cтраница компании Студия Ремонтов в Инстаграм"></a>
+                </li>
+                <li class="social__item">
+                  <a class="social__link social__link--ok" href="https://www.ok.ru/studia.remontov" target="_blank"
+                    rel="noopener" aria-label="Cтраница компании Студия Ремонтов в Одноклассниках"></a>
+                </li>
+                <li class="social__item">
+                  <a class="social__link social__link--youtube"
+                    href="https://www.youtube.com/channel/UCgaeI3JqdmJLybxVul8IQDQ" target="_blank" rel="noopener"
+                    aria-label="Cтраница компании Студия Ремонтов на Ютуб"></a>
+                </li>
+                <li class="social__item">
+                  <a class="social__link social__link--fb" href="https://www.facebook.com/studia.remontov/"
+                    target="_blank" rel="noopener" aria-label="Cтраница компании Студия Ремонтов в Фейсбук"></a>
+                </li>
+                <li class="social__item">
+                  <a class="social__link social__link--tt" href="https://www.tiktok.com/@studia_remontov" target="_blank"
+                    rel="noopener" aria-label="Cтраница компании Студия Ремонтов в Тик-Ток"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <span class="copyright__info copyright__info">&copy; 2014-2022 ООО «Студия&nbsp;Ремонтов»</span>
+          <span class="copyright__info copyright__info">ИНН:&nbsp;7743152366, ОГРН:&nbsp;1167746404517</span>
+          <span class="copyright__info copyright__info">Сайт не является публичной офертой и носит информационный характер.</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+  
+  <script src="js/menu.min.js"></script>
+  <script src="js/script.min.js"></script>
+  <script src="js/ymaps.min.js"></script>
+</body>
+
+</html>
