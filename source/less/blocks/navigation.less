@@ -15,13 +15,13 @@
   margin-bottom: 12px;
 
   @media (min-width: @tablet-width) {
-  margin-right: 32px;
-  margin-bottom: 0;
+    margin-right: 32px;
+    margin-bottom: 0;
 
-  &:last-child {
-    margin-right: 0;
+    &:last-child {
+      margin-right: 0;
+    }
   }
-}
 }
 
 .navigation__link {
@@ -35,4 +35,12 @@
     font-size: 18px;
     line-height: 24px;
   }
+}
+
+.navigation__link:hover {
+  color: @black-basic;
+}
+
+.navigation__link:active {
+  opacity: 0.6;
 }

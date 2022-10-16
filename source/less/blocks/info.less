@@ -10,6 +10,10 @@
 
     &--review {
         padding: 20px 24px;
+
+        @media(min-width: @desktop-width) {
+            padding: 40px 24px;
+        }
     }
 }
 
@@ -54,29 +58,55 @@
     color: #ff1515;
 }
 
+/*Button*/
+
 .info__button {
     .button-blue ();
     margin: 0 auto;
     width: 100%;
+    outline: none;
+    -webkit-outline: none;
+    -moz-outline: none;
 
     &--small {
         font-size: 14px;
         line-height: 20px;
     }
 
+    &--popup {
+        margin: 0 auto;
+        width: 93%;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
     @media(min-width: @tablet-width) {
         width: auto;
         padding: 14px 32px;
 
-        &--form  {
-            padding: 0 12px;
-        }
-
         &--small {
             font-size: 16px;
         }
+
+        &--popup {
+            margin: 0 auto;
+            width: 93%;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 22px;
+        }
     }
 }
+
+.info__button:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);  
+}
+
+.info__button:active {
+    outline: 2px solid @white-basic;
+}
+
 
 .info__subtitle {
     font-size: 20px;

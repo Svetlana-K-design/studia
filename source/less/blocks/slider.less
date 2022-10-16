@@ -14,13 +14,23 @@
 }
 
 .slider__photo {
-  margin-right: 5px;
-  margin-left: 5px;
+  margin-right: 2px;
+  margin-left: 2px;
+
+  @media (min-width: @desktop-width) {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
 }
 
 .slider-nav {
-  margin-right: -5px;
-  margin-left: -5px;
+  margin-right: -2px;
+  margin-left: -2px;
+
+  @media (min-width: @desktop-width) {
+    margin-right: -5px;
+    margin-left: -5px;
+  }
 }
 
 
@@ -33,10 +43,11 @@
 .slick-list {
 	overflow: hidden;
 }
+
 /* Лента слайдов */
 .slick-track {
 	display: flex;
-	align-items: stretch;
+  align-items: flex-start;
 }
 
 
@@ -49,6 +60,7 @@
 	height: 32px;
   background: url('../img/icons/arrow.svg') center center / 100% no-repeat;
   border: none;
+  cursor: pointer;
 
   @media (min-width: @desktop-width) {
     width: 62px;
@@ -56,8 +68,21 @@
   }
 }
 
+.slick-arrow:hover {
+  transform: scale(1.33);
+  transition: all 0.7s ease-out;
+}
+
+.slick-arrow:active {
+  opacity: 0.6;
+}
+
 .slider__list .slick-arrow.slick-next{
   transform: rotate(-180deg);
+}
+
+.slider__list .slick-arrow.slick-next:hover {
+  transform: rotate(-180deg) scale(1.33);
 }
 
 /* Arrows for reviews*/
@@ -68,6 +93,10 @@
   bottom: -90px;
 
   @media (min-width: @desktop-width) {
+    bottom: -70px;
+  }
+
+  @media (min-width: 1282px) {
     left: -60px;
     top: 50%;
     margin-top: -50px;
@@ -81,6 +110,10 @@
   bottom: -90px;
 
   @media (min-width: @desktop-width) {
+    bottom: -70px;
+  }
+
+  @media (min-width: 1282px) {
     right: -60px;
     top: 50%;
     margin-top: -50px;

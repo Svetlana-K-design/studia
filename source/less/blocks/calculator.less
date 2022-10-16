@@ -10,11 +10,11 @@
 
 .calculator__wrapper {
   max-width: 1110px;
-  padding: 40px 24px 0;
+  padding: 32px 24px 0;
   margin: 0 auto;
 
   @media (min-width: @tablet-width) {
-    padding: 80px 24px 40px;
+    padding: 70px 24px 40px;
   }
 }
 
@@ -78,7 +78,7 @@
   @media (min-width: @desktop-width) {
     font-size: 24px;
     line-height: 30px;
-    margin-bottom: 42px;
+    margin-bottom: 40px;
     text-align: center;
   }
 }
@@ -89,7 +89,7 @@
   background-color: @white-basic;
   padding: 24px 16px;
   box-sizing: border-box;
-  outline: 2px solid #d2d2d2;
+  border: 2px solid #d2d2d2;
 
   @media (min-width: @desktop-width) {
     padding: 32px 68px;
@@ -104,10 +104,10 @@
   color: inherit;
 
   @media (min-width: @desktop-width) {
-    display: grid;
-    grid-template-columns: repeat(4, 225px);
+    display: flex;
+    flex-wrap: wrap;
     column-gap: 26px;
-    grid-template-rows: auto auto;
+    justify-content: flex-start;
   }
 }
 
